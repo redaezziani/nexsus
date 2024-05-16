@@ -19,7 +19,7 @@ const Badge = () => {
             onMouseEnter={handelIsHovered}
             onMouseLeave={handelIsHovered}
             className=" px-4 relative flex justify-center cursor-pointer items-center gap-2 border border-blue-300/30 rounded-full py-0.5  bg-amber-50/25">
-            <div className="size-3 rounded-full animate-pulse border bg-amber-500" />
+            <div className="size-3 rounded-full animate-pulse border border-green-600 bg-green-500" />
             <motion.p
                 className=" text-amber-900 font-semibold text-sm"
             >
